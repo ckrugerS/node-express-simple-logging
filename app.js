@@ -13,7 +13,7 @@ app.get('/', function(req, res){
   // generic log method, also accepts JSON entries
   log.log("debug", {sleep:"all night", work:"all day"})
 
-  res.send(‘created 2 logs’);
+  res.send('created 2 logs');
 });
 
 app.listen(process.env.PORT || 4000, function(){
