@@ -1,0 +1,12 @@
+{
+  "name": "ckrugerjs",
+  "version": "0.0.1",
+  "private": true,
+  "main": "app.js",
+  "dependencies": {
+    "express": "~3.3.4"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
